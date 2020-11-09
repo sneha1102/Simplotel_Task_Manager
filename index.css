@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  height: 200vh;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgb(79, 118, 170) 0%,
+    rgb(204, 163, 75) 3%,
+    rgb(78, 85, 85) 4%,
+    rgb(176, 125, 31) 10%,
+    rgb(121, 61, 98) 100%
+  );
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 20px;
+  width: 80px;
+  height: 40px;
+  border-radius: 7px;
+
+  background-color: purple;
+  color: white;
+}
+
+input {
+  border-color: red;
+  width: 70px;
+  height: 30px;
+  border-radius: 7px;
+}
+
+.server {
+  margin: 5px;
+  height: 30px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: gray;
+
+  border: 0.7mm solid rgb(128, 0, 0);
+  display: flex;
+  align-items: center;
+}
+
+#serversContainer {
+  display: flex;
+  flex-flow: column;
+}
+
+.tasks {
+  margin: 2px;
+  height: 30px;
+  width: 70%;
+  border-radius: 10px;
+  background-color: grey;
+  border: 0.8mm solid rgb(128, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+#tasksContainer {
+  display: flex;
+  flex-flow: column;
+}
+
+.deleteButton {
+  margin: 0px;
+  border-radius: 5px;
+  height: 25px;
+  background-color: lightseagreen;
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 56px;
+  margin: 70px;
+}
+.progress {
+  width: 80%;
+  background-color: #ddd;
+}
+
+.myprogressBar {
+  width: 1%;
+  height: 35px;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 32px;
+  color: black;
+}
